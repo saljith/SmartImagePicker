@@ -21,6 +21,9 @@ public class FragmentExample extends AppCompatActivity {
         FragmentActivityBinding binding = DataBindingUtil.setContentView(this, R.layout.fragment_activity);
     }
 
+    
+    
+    
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
